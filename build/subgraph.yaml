@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: TokenSeed
@@ -17,8 +17,8 @@ dataSources:
         - token
       abis:
         - name: TokenSeed
-          file: ./abis/TokenSeed.json
+          file: TokenSeed/abis/TokenSeed.json
       eventHandlers:
         - event: tokencreated(address,address,string,string,uint256,uint256,address)
           handler: handletokencreated
-      file: ./src/mapping.ts
+      file: TokenSeed/TokenSeed.wasm
