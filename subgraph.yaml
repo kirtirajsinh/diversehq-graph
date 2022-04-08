@@ -6,9 +6,9 @@ dataSources:
     name: TokenSeed
     network: mumbai
     source:
-      address: "0xbd8f2441a807FA841B2fB23893F5dE31c1433fBA"
+      address: "0x373e43441725468fe052D70F54dae88ea0E57490"
       abi: TokenSeed
-      startBlock: 25677918
+      startBlock: 25799110 # block number of the first transaction
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
